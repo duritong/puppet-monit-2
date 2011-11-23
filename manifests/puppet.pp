@@ -3,6 +3,6 @@ class monit::puppet {
 
   monit::config{"puppet":
     ensure => present,
-    source => "puppet:///monit/puppet.conf",
+    source => "puppet:///modules/monit/puppet.conf",
   }
 }
